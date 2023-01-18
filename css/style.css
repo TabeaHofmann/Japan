@@ -21,18 +21,24 @@ img {
     height: auto;
 }
 
-btn {
-    display: inline-block;
-    color: #121212;
-    text-decoration:: none;
-    background-color: : #00FFEA;
-    padding: 15px; 40px;
+.btn a {color: #E4E4E4;
+    background-color: #121212;
+    padding: 15px 40px;
     border-radius: 10px;
+    position: fixed;
+    right: 30px;
+    top:40px;
+    
           
 }
 
 
-.btn{
+
+
+
+
+
+.btn a{
     position: fixed;
     top:45px;
     right:30px
@@ -44,13 +50,13 @@ btn {
     padding: 10px 20px;
     padding:right 40px
         
-    
     transition: all 0.3s;
 }
 
-.btn a:hover {
-    background-color: red;
-}
+.btn a :hover{ background-color: aqua;
+    color: #121212;
+    text-decoration: none;}
+    
 
 
 
